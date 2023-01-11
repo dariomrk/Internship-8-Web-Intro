@@ -10,18 +10,19 @@
 }
 
 header {
-    padding: 0 7% 2% 7%;
-    background-color: lightgray;
+    padding: 0 5% 1% 5%;
+    background-color: #dddddd;
     border-bottom: 2px solid gray;
 
 }
 
 article {
-    padding: 0 7% 2% 7%;
+    padding: 0 5% 2% 5%;
+    width: 38%;
 }
 
 h1 {
-    padding: 2% 0 0 0;
+    padding: 1% 0 0 0;
     font-weight: 400;
 }
 
@@ -37,11 +38,11 @@ p {
 }
 
 a {
-    color: rgb(59, 123, 252);
+    color: #3b7cfc;
 }
 
 a:hover{
-    color: rgb(59, 123, 252);
+    color: #3b7cfc;
 }
 
 code {
