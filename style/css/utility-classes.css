@@ -3,13 +3,13 @@
 }
 
 .black {
-    color: black;
+    color: #000000;
 }
 
-.gray {
-    color: rgb(26, 26, 26);
+.dark-gray {
+    color: #141414;
 }
 
 .light-gray {
-    color: rgb(110, 110, 110);
+    color: #6e6e6e;
 }
