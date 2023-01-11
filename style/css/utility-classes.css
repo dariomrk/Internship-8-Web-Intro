@@ -1,0 +1,15 @@
+.decoration-none {
+    text-decoration: none;
+}
+
+.black {
+    color: black;
+}
+
+.gray{
+    color: rgb(26, 26, 26);
+}
+
+.light-gray {
+    color: rgb(110, 110, 110);
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: open-sans;
+    src: url("../fonts/open-sans.ttf");
+}
+
+* {
+    font-family: open-sans;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 0 7% 2% 7%;
+    background-color: lightgray;
+    border-bottom: 2px solid gray;
+
+}
+
+article {
+    padding: 0 7% 2% 7%;
+}
+
+h1 {
+    padding: 2% 0 0 0;
+    font-weight: 400;
+}
+
+h2 {
+    padding: 2% 0 0 0;
+    font-weight: 400;
+}
+
+p {
+    font-size: medium;
+    font-weight: 450;
+    color: rgb(20, 20, 20);
+}
+
+a {
+    color: rgb(59, 123, 252);
+}
+
+a:hover{
+    color: rgb(59, 123, 252);
+}
+
+code {
+    font-family: monospace;
+    font-size: large;
+}
