@@ -10,7 +10,7 @@
     <title>Tech Notes: Two suprises in browser crashes</title>
 </head>
 
-<body>
+<body id="definitely-not-a-rick-roll">
     <header>
         <h1><a href="https://neugierig.org/" class="decoration-none black">neugierig.org:</a> 
             <a href="https://neugierig.org/software/blog/" class="decoration-none black">Tech Notes</a></h1>
@@ -60,6 +60,18 @@
             I believe it's as simple as providing a <code>default</code> endpoint in an HTTP header and accepting POSTs there.
         </p>
     </article>
+    <script>
+        document
+        .querySelector("#definitely-not-a-rick-roll")
+        .addEventListener("click", () => {
+            const didRun = Boolean(localStorage.getItem("rick-rolled"));
+            if(!didRun)
+            {
+                window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+                localStorage.setItem("rick-rolled", "true");
+            }
+        });
+    </script>
 </body>
 
 </html>
